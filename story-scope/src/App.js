@@ -5,7 +5,9 @@ import Lobby from './components/lobby/lobby';
 function App() {
   return (
     <div className="App">
-          <Lobby  />
+      <Canvas shadow>
+          <Lobby/>
+      </Canvas>
     </div>
   );
 }
